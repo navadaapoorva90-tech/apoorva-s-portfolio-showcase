@@ -59,7 +59,6 @@ const ACHIEVEMENTS = [
   { title: "Achievement Title", note: "Add your achievement details here — event, role and outcome." },
   { title: "Certification Name", note: "Add issuing organisation and year of completion." },
   { title: "Course / Workshop", note: "Add course name, platform and key skills learned." },
-  { title: "Award / Recognition", note: "Add award name and the reason it was received." },
 ];
 
 function Index() {
