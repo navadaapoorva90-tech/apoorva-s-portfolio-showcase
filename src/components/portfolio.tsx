@@ -1,7 +1,6 @@
 import { useEffect, useState, type ReactNode } from "react";
 import {
   Github,
-  ExternalLink,
   Mail,
   Linkedin,
   Download,
