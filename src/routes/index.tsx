@@ -10,6 +10,7 @@ import {
   LINKS,
   Mail,
   Navbar,
+  Phone,
   ProjectCard,
   Section,
 } from "@/components/portfolio";
@@ -188,12 +189,19 @@ function Index() {
 
       {/* Contact */}
       <Section id="contact" title="Contact" subtitle="Feel free to reach out for roles or collaboration.">
-        <div className="grid gap-4 sm:grid-cols-3">
+        <div className="grid grid-cols-2 gap-4 sm:grid-cols-4">
           <Card>
             <Mail className="h-4 w-4 text-primary" />
             <p className="mt-3 text-xs uppercase tracking-wider text-muted-foreground">Email</p>
             <a href={`mailto:${LINKS.email}`} className="mt-1 block truncate text-sm hover:text-primary">
               {LINKS.email}
+            </a>
+          </Card>
+          <Card>
+            <Phone className="h-4 w-4 text-primary" />
+            <p className="mt-3 text-xs uppercase tracking-wider text-muted-foreground">Phone</p>
+            <a href={`tel:+91-${LINKS.phone}`} className="mt-1 block truncate text-sm hover:text-primary">
+              +91 {LINKS.phone}
             </a>
           </Card>
           <Card>
