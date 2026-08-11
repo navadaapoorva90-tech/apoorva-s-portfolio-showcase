@@ -203,4 +203,4 @@ export function ProjectCard({
   );
 }
 
-export { Github, ExternalLink, Mail, Linkedin, Download, GraduationCap, Award };
+export { Github, Mail, Linkedin, Download, GraduationCap, Award };
