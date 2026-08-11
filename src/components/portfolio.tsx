@@ -176,14 +176,10 @@ export function ProjectCard({
   title,
   description,
   tech,
-  github,
-  demo,
 }: {
   title: string;
   description: string;
   tech: string[];
-  github: string;
-  demo: string;
 }) {
   return (
     <Card className="flex h-full flex-col">
