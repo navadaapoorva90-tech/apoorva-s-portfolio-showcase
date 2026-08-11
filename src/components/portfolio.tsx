@@ -3,6 +3,7 @@ import {
   Github,
   Mail,
   Linkedin,
+  Phone,
   Download,
   GraduationCap,
   Award,
@@ -15,6 +16,7 @@ import {
 export const LINKS = {
   resume: "/resume.pdf",
   email: "navadaapoorva90@gmail.com",
+  phone: "8792720326",
   linkedin: "https://linkedin.com/in/your-username",
   github: "https://github.com/your-username",
 };
@@ -199,4 +201,4 @@ export function ProjectCard({
   );
 }
 
-export { Github, Mail, Linkedin, Download, GraduationCap, Award };
+export { Github, Mail, Linkedin, Phone, Download, GraduationCap, Award };
