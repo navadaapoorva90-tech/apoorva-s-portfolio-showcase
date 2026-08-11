@@ -40,24 +40,18 @@ const PROJECTS = [
     description:
       "Iris-based authentication system that verifies identity using computer vision and machine learning for secure, contactless access.",
     tech: ["Python", "Computer Vision", "Machine Learning"],
-    github: "https://github.com/your-username/iris-authentication",
-    demo: "https://example.com/iris-demo",
   },
   {
     title: "Student Timetable & StudyMate",
     description:
       "A student timetable and study planning platform that organises classes, tracks study sessions and keeps academic work on schedule.",
     tech: ["Java", "SQL", "HTML & CSS"],
-    github: "https://github.com/your-username/studymate",
-    demo: "https://example.com/studymate-demo",
   },
   {
     title: "Math Crew",
     description:
       "An educational platform designed to help children learn mathematics through simple, interactive and engaging practice.",
     tech: ["HTML & CSS", "Python"],
-    github: "https://github.com/your-username/math-crew",
-    demo: "https://example.com/math-crew-demo",
   },
 ];
 

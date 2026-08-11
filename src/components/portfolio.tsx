@@ -1,7 +1,6 @@
 import { useEffect, useState, type ReactNode } from "react";
 import {
   Github,
-  ExternalLink,
   Mail,
   Linkedin,
   Download,
@@ -177,14 +176,10 @@ export function ProjectCard({
   title,
   description,
   tech,
-  github,
-  demo,
 }: {
   title: string;
   description: string;
   tech: string[];
-  github: string;
-  demo: string;
 }) {
   return (
     <Card className="flex h-full flex-col">
@@ -200,16 +195,8 @@ export function ProjectCard({
           </span>
         ))}
       </div>
-      <div className="mt-5 flex flex-wrap gap-2">
-        <Button href={github} variant="outline" className="px-3 py-2 text-xs">
-          <Github className="h-3.5 w-3.5" /> GitHub
-        </Button>
-        <Button href={demo} variant="outline" className="px-3 py-2 text-xs">
-          <ExternalLink className="h-3.5 w-3.5" /> Live Demo
-        </Button>
-      </div>
     </Card>
   );
 }
 
-export { Github, ExternalLink, Mail, Linkedin, Download, GraduationCap, Award };
+export { Github, Mail, Linkedin, Download, GraduationCap, Award };
