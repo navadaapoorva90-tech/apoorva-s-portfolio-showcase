@@ -15,7 +15,7 @@ import {
 /* ---- Easily replaceable placeholders ---- */
 export const LINKS = {
   resume: "/resume.pdf",
-  email: "apoorva.navda@example.com",
+  email: "navadaapoorva90@gmail.com",
   linkedin: "https://linkedin.com/in/your-username",
   github: "https://github.com/your-username",
 };
